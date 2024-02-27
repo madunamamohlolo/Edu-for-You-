@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contributors</title>
+</head>
+<body>
+
+<h1>Contributors</h1>
+
+<p>We would like to acknowledge and thank the following contributors for their valuable contributions to our extra classes:</p>
+
+<ul>
+    <li>Ntombizodwa - Mathematics Instructor</li>
+    <li>Mamohlolo - Science Instructor</li>
+    <li>Tebello - Language Arts Instructor</li>
+    <!-- Add more contributors as needed -->
+</ul>
+
+<p>We appreciate the dedication and expertise of our contributors, which has greatly enriched the learning experience for our students.</p>
+
+</body>
+</html>
