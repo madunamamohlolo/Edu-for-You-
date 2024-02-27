@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page 2: Additional Schedule Information</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f2f2f2;
+margin: 0;
+padding: 0;
+}
+h1 {
+text-align: center;
+color: #333;
+margin-top: 20px;
+}
+table {
+width: 80%;
+margin: 20px auto;
+border-collapse: collapse;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+background-color: #fff;
+}
+th, td {
+border: 1px solid #ddd;
+padding: 12px;
+text-align: center;
+}
+th {
+background-color: #f2f2f2;
+color: #333;
+}
+tr:nth-child(even) {
+background-color: #f9f9f9;
+}
+tr:hover {
+background-color: #e0e0e0;
+}
+.button-container {
+text-align: center;
+margin-top: 20px;
+}
+.next-button {
+background-color: #007bff;
+color: #fff;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 5px;
+font-size: 16px;
+}
+.next-button:hover {
+background-color: #0056b3;
+}
+.back-button {
+background-color: #dc3545;
+color: #fff;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 5px;
+font-size: 16px;
+margin-right: 10px;
+}
+.back-button:hover {
+background-color: #c82333;
+}
+</style>
+</head>
+<body>
+<h1>Additional Schedule Information</h1>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Time</th>
+<th>Class</th>
+<th>Instructor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="background-color: #ffd54f;">Monday, March 11th</td>
+<td>9:00 AM - 10:30 AM</td>
+<td style="background-color: #ff8a65;">History</td>
+<td style="background-color: #81c784;">Ntombi</td>
+</tr>
+<tr>
+<td style="background-color: #ffd54f;">Tuesday, March 12th</td>
+<td>1:00 PM - 2:30 PM</td>
+<td style="background-color: #90caf9;">Computer Science</td>
+<td style="background-color: #ba68c8;">Mamohlolo</td>
+</tr>
+<tr>
+<td style="background-color: #ffd54f;">Wednesday, March 13th</td>
+<td>3:00 PM - 4:30 PM</td>
+<td style="background-color: #ffcc80;">Art</td>
+<td style="background-color: #4db6ac;">Tebello</td>
+</tr>
+</tbody>
+</table>
+<div class="button-container">
+<button class="back-button" onclick="goBack()">Back</button>
+<button class="next-button" onclick="nextPage()">Next</button>
+</div>
+
+<script>
+function nextPage() {
+window.location.href = "page3.html"; // Redirect to the next page
+}
+
+function goBack() {
+window.location.href = "page1.html"; // Navigate back to page 1
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Extra Classes Schedule</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f2f2f2;
+margin: 0;
+padding: 0;
+}
+h1 {
+text-align: center;
+color: #333;
+margin-top: 20px;
+}
+table {
+width: 80%;
+margin: 20px auto;
+border-collapse: collapse;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+background-color: #fff;
+}
+th, td {
+border: 1px solid #ddd;
+padding: 12px;
+text-align: center;
+}
+th {
+background-color: #f2f2f2;
+color: #333;
+}
+tr:nth-child(even) {
+background-color: #f9f9f9;
+}
+tr:hover {
+background-color: #f2f2f2;
+}
+.button-container {
+text-align: center;
+margin-top: 20px;
+}
+.next-button {
+background-color: #007bff;
+color: #fff;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 5px;
+font-size: 16px;
+}
+.next-button:hover {
+background-color: #0056b3;
+}
+</style>
+</head>
+<body>
+<h1>Online Extra Classes Schedule</h1>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Time</th>
+<th>Class</th>
+<th>Instructor</th>
+</tr>
+</theald>
+<tbody>
+<tr>
+<td>Thursday, March 7st</td>
+<td>2:00 AM - 3:30 AM</td>
+<td>Mathematics</td>
+<td>Ntombi</td>
+</tr>
+<tr>
+<td>Friday, March 8rd</td>
+<td>2:00 PM - 3:30 PM</td>
+<td>Science</td>
+<td>Mamohlolo</td>
+</tr>
+<tr>
+<td>Saturday, March 9th</td>
+<td>10:00 AM - 11:30 AM</td>
+<td>Language Arts</td>
+<td>Tebello</td>
+</tr>
+</tbody>
+</table>
+<div class="button-container">
+<button class="next-button" onclick="nextPage()">Next</button>
+<script>
+function nextPage() {
+window.location.href = "page2.html"; // Redirect to the next page
+}
+</script>
+</div>
+</body>
+</html>

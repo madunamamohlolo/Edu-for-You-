@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page 3: Enrolment Information</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #fafafa;
+margin: 0;
+padding: 0;
+}
+.container {
+width: 80%;
+margin: 20px auto;
+background-color: #ffffff;
+padding: 20px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+}
+h1 {
+text-align: center;
+color: #333;
+}
+h2 {
+color: #007bff;
+}
+p {
+line-height: 1.5;
+color: #555;
+}
+.contacts {
+margin-top: 20px;
+text-align: center;
+}
+.contact-icon {
+font-size: 24px;
+margin: 0 10px;
+color: #007bff;
+cursor: pointer;
+}
+.fees-list {
+list-style: none;
+padding: 0;
+}
+.fees-list li {
+margin-bottom: 10px;
+color: #333;
+}
+.emoji {
+font-size: 20px;
+margin-right: 5px;
+}
+.child-emoji {
+font-size: 30px;
+}
+.button-container {
+text-align: center;
+margin-top: 20px;
+}
+.back-button {
+background-color: #007bff;
+color: #fff;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 5px;
+font-size: 16px;
+}
+.back-button:hover {
+background-color: #0056b3;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Enrolment Information</h1>
+<h2>Fees per Subject:</h2>
+<ul class="fees-list">
+<li><span class="emoji">📚</span> Mathematics: R100</li>
+<li><span class="emoji">📚</span> Science: R100</li>
+<li><span class="emoji">📚</span> Language Arts: R100</li>
+<li><span class="emoji">📚</span> History: R100</li>
+<li><span class="emoji">📚</span> Computer Science: R100</li>
+<li><span class="emoji">📚</span> Art: R100</li>
+</ul>
+<h2>Requirements:</h2>
+<p>
+To enroll in our extra classes, students need to provide the following documents:<br>
+<span class="emoji">👦🏻</span><span class="emoji child-emoji">👧🏻</span><br>
+<span class="emoji">✏️</span> Copy of ID or birth certificate<br>
+<span class="emoji">🏠</span> Proof of residence<br>
+<span class="emoji">📄</span> Latest school report card
+</p>
+<div class="contacts">
+<p>Contact Us:</p>
+<a href="tel:+123456789"><span class="contact-icon">📞</span></a>
+<a href="mailto:info@example.com"><span class="contact-icon">✉️</span></a>
+<a href="location.html"><span class="contact-icon">🏢</span></a>
+</div>
+<div class="button-container">
+<button class="back-button" onclick="goBack()">Back</button>
+</div>
+</div>
+
+<script>
+function goBack() {
+window.location.href = "page2.html"; // Navigate back to page 2
+}
+</script>
+</body>
+</html>
