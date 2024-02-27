@@ -3,57 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Extra Classes Schedule</title>
+    <title>Navigation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
+        body {
+            font-family: Arial, sans-serif;
         }
-        th, td {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
+        ul {
+            list-style-type: none;
+            padding: 0;
         }
-        th {
-            background-color: #f2f2f2;
+        li {
+            margin-bottom: 10px;
+        }
+        li a {
+            text-decoration: none;
+            color: #333;
+            padding-left: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .icon {
+            margin-right: 10px;
+            font-size: 20px;
         }
     </style>
 </head>
 <body>
-
-<h1>Online Extra Classes Schedule</h1>
-
-<table>
-    <thead>
-        <tr>
-            <th>Date</th>
-            <th>Time</th>
-            <th>Class</th>
-            <th>Instructor</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Thursday, March 7st</td>
-            <td>2:00 AM - 3:30 AM</td>
-            <td>Mathematics</td>
-            <td>Ntombi</td>
-        </tr>
-        <tr>
-            <td>Friday, March 8rd</td>
-            <td>2:00 PM - 3:30 PM</td>
-            <td>Science</td>
-            <td>Mamohlolo</td>
-        </tr>
-        <tr>
-            <td>Saturday, March  9th</td>
-            <td>10:00 AM - 11:30 AM</td>
-            <td>Language Arts</td>
-            <td>Tebello</td>
-        </tr>
-        <!-- Add more rows for additional classes -->
-    </tbody>
-</table>
-
+    <ul>
+        <!-- Navigation links with icons -->
+        <li><a href="schedule.html"><i class="icon fas fa-home"></i>Page 1 - Home</a></li>
+        <li><a href="resources.html"><i class="icon fas fa-book"></i>Page 2 - Resources</a></li>
+        <li><a href="subjects.html"><i class="icon fas fa-ruler"></i>Page 3 - Subjects</a></li>
+    </ul>
 </body>
 </html>
